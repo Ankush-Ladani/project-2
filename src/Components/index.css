@@ -1,19 +1,114 @@
-.photo{
+.card{
+    border-radius: 10px;
+}
+.photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px 10px 0px 0px;
+  margin-top: 20px;
+}
+.full-Name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: white;
+}
+.center {
+  text-align: center;
+}
+.designation {
+  margin-top: -1rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15px;
+  color:  #F3BF99;
+}
+a {
+  display: block;
+  text-decoration: none;
+  color: brown;
+  margin-top: -1rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+}
+.btn-div {
+  display: flex;
+  margin: 0 2rem;
+  /* flex-direction: column; */
+}
+.email-btn {
+  /* display: block; */
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  width: 100px;
+  padding: 9px 15px 9px 11px;
+  background-color: white;
+  cursor: pointer;
+  font-weight: 600;
+  border: 1px solid white;
+  border-radius: 6px;
+}
+.mail-Photo {
+  margin: 0 0.5rem;
+}
+.linkedin-btn {
+  background-color: #5093e2;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  width: 115px;
+  padding: 9px 15px 9px 11px;
+  cursor: pointer;
+  font-weight: 500;
+  border: 1px solid #5093e2;
+  border-radius: 6px;
+  color: white;
+}
+.linkedin-Photo {
+  margin: 0 0.5rem;
+}
+
+.about-head,
+.interests-head {
+  /* display: block; */
+  margin: 0 1.7rem;
+  color: white;
+  margin-top: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+}
+.interests-head{
+    margin-top: 0rem;
+}
+.about-para,
+.interests-para {
+  /* width: 23rem; */
+  /* display: block; */
+  margin: 0 1.7rem;
+  color: white;
+  margin-top: 0.5rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  padding-bottom: 2rem;
+}
+.card{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px 10px 0px 0px;
-    margin-top: 20px;
+    margin : 0 auto;
+    width: 20rem;
+    background-color: black;
 }
-.center{
-    text-align: center;
-}
-.designation{
-    margin-top: -1rem;
-}
-a{
-    display: block;
-    text-decoration: none;
-    color: brown;
-    margin-top: -1rem;
+.email-btn:hover{
+    background-color: rgb(205, 210, 215);
 }
