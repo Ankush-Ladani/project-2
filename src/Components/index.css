@@ -36,6 +36,22 @@ a {
   font-size: 10.24px;
   line-height: 150%;
 }
+.footer{
+  display: flex;
+  margin-left: 3.5rem;
+}
+.fb , .git , .twitter , .insta{
+  padding-right: 2rem;
+}
+.fb  :hover{
+  background-color: blue;
+}
+.twitter :hover{
+  background-color: #126ed8;
+}
+.insta :hover{
+  background-color: rgb(203, 35, 175);
+}
 .btn-div {
   display: flex;
   margin: 0 2rem;
@@ -71,6 +87,9 @@ a {
   border: 1px solid #5093e2;
   border-radius: 6px;
   color: white;
+}
+.linkedin-btn:hover {
+  background-color: #1c79e4;
 }
 .linkedin-Photo {
   margin: 0 0.5rem;
